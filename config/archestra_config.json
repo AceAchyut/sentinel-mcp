@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sentinel": {
+      "command": "java",
+      "args": [
+        "-cp",
+        "C:\\Users\\achyu\\OneDrive\\Desktop\\Sentinel-MCP\\server",
+        "SentinelAgent"
+      ]
+    }
+  }
+}
