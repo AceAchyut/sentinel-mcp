@@ -39,3 +39,17 @@ The "Muscle" needs to be built first.
 ```bash
 cd engine
 gcc log_scanner.c -o log_scanner
+2.  **Compile the Server:**
+    ```bash
+    cd server
+    javac SentinelAgent.java
+    ```
+3.  **Run with Archestra:**
+    Configure your `archestra_config.json` to point to the `SentinelAgent` class.
+
+## 🛡️ Security Demo
+Sentinel blocks unauthorized access to system files.
+* **Input:** `../../etc/passwd`
+* **Response:** `SECURITY ALERT: Path traversal attempt blocked.`
+
+---
